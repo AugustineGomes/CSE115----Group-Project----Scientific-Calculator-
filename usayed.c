@@ -76,7 +76,7 @@ switch(choice) {
 
     case 2:
     printf("Enter angle(degrees): ");
-    scanf("%lf",angle);
+    scanf("%lf",&angle);
     result = cos(DEG_TO_RAD(angle));
     printf("\n Result: cos(%.2lf°) = %.6lf\n",angle,result);
     break;
